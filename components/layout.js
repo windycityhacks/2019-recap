@@ -113,14 +113,14 @@ export default props => {
             >
               <Icon glyph="twitter" size={36} />
             </A>
-            <A
-              href="https://fb.me/windyhacks"
-              title="Facebook"
-              sx={{ mx: 2 }}
-            >
+            <A href="https://fb.me/windyhacks" title="Facebook" sx={{ mx: 2 }}>
               <Icon glyph="facebook" size={36} />
             </A>
-            <A href="https://github.com/windyhacks" title="GitHub" sx={{ mx: 2 }}>
+            <A
+              href="https://github.com/windyhacks"
+              title="GitHub"
+              sx={{ mx: 2 }}
+            >
               <Icon glyph="github" size={36} />
             </A>
             <A
@@ -141,13 +141,25 @@ export default props => {
               a: { fontSize: 1 }
             }}
           >
-            <A
-              href="https://lachlanjc.me"
-              target="_blank"
-              variant="styles.navitem"
-            >
-              Site by @lachlanjc
-            </A>
+            <Text sx={{ fontFamily: 'heading' }}>
+              Site by{' '}
+              <A
+                href="https://lachlanjc.me"
+                target="_blank"
+                variant="styles.navitem"
+              >
+                @lachlanjc
+              </A>{' '}
+              &{' '}
+              <A
+                href="https://matthewstanciu.me"
+                target="_blank"
+                variant="styles.navitem"
+              >
+                Matthew Stanciu
+              </A>{' '}
+              💙
+            </Text>
             <Text
               sx={{
                 fontFamily: 'body',
