@@ -141,7 +141,7 @@ export default props => {
               a: { fontSize: 1 }
             }}
           >
-            <Text sx={{ fontFamily: 'heading' }}>
+            <Text sx={{ fontFamily: 'heading', fontSize: 1 }}>
               Site by{' '}
               <A
                 href="https://lachlanjc.me"
