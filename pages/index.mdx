@@ -1,0 +1,249 @@
+import { Banner, List, Container, Callout, Gallery, Team } from '../components/blocks'
+import { Box, Flex } from 'rebass'
+import Sponsors from '../components/sponsors'
+import Photo from '../components/photo'
+import Construction from '../components/construction'
+import Router from 'next/router'
+
+<Banner>
+
+# Windy City Hacks
+
+## June 22-23, 2019, 160 hackers came together for Chicago’s high school hackathon.
+
+</Banner>
+
+<Container>
+<Callout>
+
+Nearly every attendee was attending their first hackathon. They created nearly 50 innovative projects, which were judged by [some of the coolest people in Chicago](https://windyhacks.com/#judging).
+
+Though Chicago is the third-largest city in the US, Windy City Hacks was one of the only high school hackathons in the city all year. We set a new precedent for what making looks like for Chicago youth.
+
+</Callout>
+</Container>
+
+<Gallery>
+
+<Photo wide alt="Opening ceremony" src="https://cdn.glitch.com/9f68e7eb-cbc8-4d6e-b977-6d54e27ebcf6%2F1.jpg?v=1565835442115" />
+<Photo alt="Working" src="https://cdn.glitch.com/9f68e7eb-cbc8-4d6e-b977-6d54e27ebcf6%2F23.jpg?v=1565835451414" />
+<Photo alt="More working" src="https://cdn.glitch.com/9f68e7eb-cbc8-4d6e-b977-6d54e27ebcf6%2F21.jpg?v=1565835452315" />
+
+Three workshops taught the basics of making attendees’ first websites, games, a web-based synthesizer, and even AI robots!
+
+<Photo showAlt alt="Attendees hacking at the personal website workshop" src="https://cdn.glitch.com/9f68e7eb-cbc8-4d6e-b977-6d54e27ebcf6%2F25.jpg?v=1565835464993" />
+
+<Photo showAlt alt="A team working on their project" src="https://cdn.glitch.com/9f68e7eb-cbc8-4d6e-b977-6d54e27ebcf6%2F5.jpg?v=1565835465088" />
+
+Hackers worked through the night to create nearly 50 creative and amazing projects (most of them were beginners!)
+
+The next morning, projects were judged by a panel of 9 industry professionals from Chicago.
+
+<Photo showAlt alt="A team presenting their project to a panel of judges" src="https://cdn.glitch.com/9f68e7eb-cbc8-4d6e-b977-6d54e27ebcf6%2F9.jpg?v=1565835459180" />
+
+<Photo showAlt alt="Our winning team!" src="https://cdn.glitch.com/9f68e7eb-cbc8-4d6e-b977-6d54e27ebcf6%2F24.jpg?v=1565835467072" />
+
+Our winning team made Habit@, a simple web app gamifying sustainability by helping you build & maintain lower-carbon habits.
+
+- **Ice cream** at midnight? Yep. 🍦
+- 2am **dance party**? We did it. 💃
+- Random **fruit roll-up giveaways** throughout? Yum. 🍭
+
+<Photo showAlt alt="An assembly line of goodies at the midnight snack" src="https://cdn.glitch.com/9f68e7eb-cbc8-4d6e-b977-6d54e27ebcf6%2F4.jpg?v=1565835445365" />
+
+</Gallery>
+
+<Container>
+
+## Winning projects
+
+<Callout sx={{ mx: [null, null, -3, -4], mt: [3, 4] }}>
+<List sx={{
+  fontSize: [2, ],
+  fontFamily: 'heading'
+}}>
+
+- [Habit@ _Help build & maintain lower-carbon habits._](https://github.com/habitatapp/final)
+- [Languages101 _An introductory website for international travelers._](https://github.com/ldolph/Languages-101)
+- [StockGamer _An educational, real-time desktop stock market simulation game_](https://github.com/nunu2021/StockGamer)
+- [GradeTree _An all-in-one school info management app_](https://play.google.com/store/apps/details?id=com.kevingaojx.gradetree)
+- [Beep Boop _A free, online GarageBand instruments alternative built by beginners_](https://DullThirstyPipelining--sunshine00435.repl.co)
+- [Vouch _A website that connects non-profit events & projects with sponsors_](http://wordpress-234693-896049.cloudwaysapps.com/)
+
+</List>
+</Callout>
+
+## Press
+
+<Callout sx={{
+  alignItems: 'center',
+  mt: [3, 4],
+  overflow: 'hidden',
+  p: 0
+}}>
+<List sx={{
+  fontSize: [2, 3],
+  lineHeight: 'heading',
+  'li:first-child': {
+    m: [-3, -4],
+    mr: [0, 0],
+    lineHeight: 0,
+    img: {
+      maxWidth: '100%'
+    }
+  },
+  'li:last-child': {
+    fontFamily: 'heading',
+    p: [3, 0]
+  },
+  li: {
+    em: {
+      mt: [1, 2],
+    }
+  }
+}}>
+
+- [![Event preview](https://cdn.glitch.com/9f68e7eb-cbc8-4d6e-b977-6d54e27ebcf6%2Fwindy-hacks.jpeg?v=1566869041694)][article]
+- [Origami Risk Hosts 155 High School Students for 2019 Chicago “Hack-a-thon” _2019-07-11, origamirisk.com_][article]
+
+</List>
+</Callout>
+
+[article]: https://www.origamirisk.com/news/origami-risk-hosts-155-high-school-students-for-2019-chicago-hack-a-thon/
+
+## Sponsors
+
+<Sponsors sx={{ mt: [3, 4] }} />
+
+### Additional support from
+
+<Sponsors section="additionalSupport" />
+
+## Judges
+
+<Team sx={{ mb: [4, 5], mt: [3, 4] }}>
+
+- ![Abril](https://windyhacks.com/judges/abril.jpg)
+
+  **Abril Vela** _CS4All coordinator @ Chicago Public Schools. Associate board member of We All Code. she/her_
+  
+- ![Nate](https://windyhacks.com/judges/nate.jpg)
+
+  **Nate Kontny** _CTO @ Rockstar Coders, writer, and vlogger. Prev. CEO of Highrise, 2x Y Combinator alum. he/him_
+
+- ![Mig](https://windyhacks.com/judges/mig.jpg)
+
+  **Mig Reyes** _Director of Product Design @ Sprout Social. Former President of AIGA Chicago. Prev. led design at Trunk Club, Basecamp, & Threadless. he/him_
+
+- ![Mica](https://windyhacks.com/judges/mica.jpg)
+
+  **Mica Alaniz** _Engineer @ Democratic National Committee, speaker @ Write/Speak/Code, Girlcon, Latinas in Tech & more, mentor & teacher. she/her_
+
+- ![Kieran](https://windyhacks.com/judges/kieran.jpg)
+
+  **Kieran Delaney** _Department Chair: Graphic Design / Interactive Media & VFX / Animation @ Flashpoint Chicago. Mentor & teacher. he/him_
+
+- ![Sean](https://windyhacks.com/judges/sean.jpg)
+
+  **Sean Kim** _Founder @ Chicago Hacks, Hack Chicago, & Code 211. VP of Kappa Pi Beta @ UIC. Hacker, creator, mentor. he/him_
+
+- ![Jake](https://windyhacks.com/judges/jake.jpg)
+
+  **Jake Albaugh** _Director of Platform Strategy @ Vinyl Me, Please. Former Engineer @ CodePen. Tinkerer, hacker, & mentor. he/him_
+
+- ![Tatyana](https://windyhacks.com/judges/tatyana.jpg)
+
+  **Tatyana Shestopalova** _Entrepreneur, mathematician & web developer. Technical Product Manager @ 4Degrees. Founder @ letsgifton.com. she/her_
+
+- ![Zach](https://windyhacks.com/judges/zach.jpg)
+
+  **Zach Latta** _Founder of Hack Club. Thiel Fellow & Forbes 30 Under 30. Always building. he/him_
+  
+</Team>
+
+## Team
+
+<Team sx={{ mb: [4, 5], mt: [3, 4] }}>
+
+- ![Matthew](https://windyhacks.com/team/matthew.jpg)
+
+  **Matthew Stanciu** _Founder, lead. he/him_
+
+- ![Lachlan](https://github.com/lachlanjc.png)
+
+  **Lachlan Campbell** _Branding, operations. they/them_
+  
+- ![Ava](https://windyhacks.com/team/ava.jpg)
+
+  **Ava Scherocman** _Marketing lead. she/her_
+  
+- ![Theo](https://github.com/tmb.png)
+
+  **Theo Bleier** _Software, operations. he/him_
+
+- ![Joy](https://windyhacks.com/team/joy.jpg)
+
+  **Joy Liu** _Marketing. she/her_
+
+- ![Michael](https://windyhacks.com/team/michael.jpg)
+
+  **Michael Parekh** _Marketing, logistics. he/him_
+  
+- ![Amogh](https://windyhacks.com/team/amogh.jpg)
+
+  **Amogh Chaubey** _Logistics. he/him_
+
+</Team>
+
+### Special thanks to
+
+<Team sx={{ mb: [4, 5], mt: [3, 4] }}>
+
+- ![Adriana](https://www.origamirisk.com/site/wp-content/uploads/2019/06/Zalloni-1.jpg)
+
+  **Adriana Zalloni** _Venue point of contact @ [Origami Risk](https://origamirisk.com), logistics queen. she/her_
+
+- ![Max](https://github.com/MaxWofford.png)
+
+  **Max Wofford** _Guest mentor from [Hack Club](https://hackclub.com/). he/him_
+  
+- ![Chris](https://hackclub.com/team/chris.jpg)
+
+  **Chris Walker** _Guest mentor from [Hack Club](https://hackclub.com), photographer, workshop teacher. he/him_
+
+- ![Fernanda](https://hackclub.com/camp/fernanda.jpg)
+
+  **Fernanda Lozano** _Helper from [Hack Club](https://hackclub.com), wonderful human. she/her_
+
+- ![Mo](https://github.com/mogalvanize.png)
+
+  **Moira Hardek _GitHub guru. she/her_**
+
+- ![Mingjie](https://github.com/itsmingjie.png)
+
+  **Mingjie Jiang** _Tireless mentor. he/him_
+
+- ![Melody](https://github.com/pixelyunicorn.png)
+
+  **Melody Starling** _Games workshop teacher, mentor. they/them_
+
+- ![Michael](https://github.com/mdestefanis11.png)
+
+  **Michael Destefanis _[Hack Club Bank](https://hackclub.com/bank/) hero, amazing helper. he/him_**
+
+</Team>
+</Container>
+
+<Flex sx={{
+  color: 'primary',
+  backgroundSize: 'cover',
+  textAlign: 'center',
+  fontSize: [2, 3, 4],
+  py: [2, 3],
+  px: [3, 6],
+  fontFamily: 'heading'
+}}>
+
+## Thank you so much to our attendees, mentors, and sponsors. We can't wait to do this again next year. 💙
+
+</Flex>
