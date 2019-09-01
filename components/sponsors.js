@@ -24,8 +24,6 @@ const Base = styled(Box)`
   img {
     max-width: 75%;
     max-height: ${props => (props.section === 'sponsors' ? 5 : 3)}rem;
-    ${props =>
-      props.colorMode === 'dark' && `filter: invert() hue-rotate(180deg);`}
   }
 `
 
