@@ -28,118 +28,118 @@ const Base = styled(Box)`
 `
 
 const data = {
-  "sponsors": [
+  sponsors: [
     {
-      "name": "8th Light",
-      "link": "https://8thlight.com",
-      "image": "8th-light.svg"
+      name: '8th Light',
+      link: 'https://8thlight.com',
+      image: '8th-light.svg'
     },
     {
-      "name": "Origami Risk",
-      "link": "https://www.origamirisk.com/",
-      "image": "origami-risk.png"
+      name: 'Origami Risk',
+      link: 'https://www.origamirisk.com/',
+      image: 'origami-risk.png'
     },
     {
-      "name": "GitHub",
-      "link": "https://github.com/",
-      "image": "github.png"
+      name: 'GitHub',
+      link: 'https://github.com/',
+      image: 'github.png'
     },
     {
-      "name": "ActiveCampaign",
-      "link": "https://activecampaign.com",
-      "image": "activecampaign.svg"
+      name: 'ActiveCampaign',
+      link: 'https://activecampaign.com',
+      image: 'activecampaign.svg'
     },
     {
-      "name": "ServerCentral",
-      "link": "https://www.servercentral.com/",
-      "image": "servercentral.png"
+      name: 'ServerCentral',
+      link: 'https://www.servercentral.com/',
+      image: 'servercentral.png'
     },
     {
-      "name": "Make School",
-      "link": "https://www.makeschool.com/",
-      "image": "make-school.png"
+      name: 'Make School',
+      link: 'https://www.makeschool.com/',
+      image: 'make-school.png'
     },
     {
-      "name": "Agalmic Ventures",
-      "link": "https://www.agalmicventures.com/",
-      "image": "agalmic.svg"
+      name: 'Agalmic Ventures',
+      link: 'https://www.agalmicventures.com/',
+      image: 'agalmic.svg'
     },
     {
-      "name": "Hearken",
-      "link": "https://wearehearken.com",
-      "image": "hearken.png"
+      name: 'Hearken',
+      link: 'https://wearehearken.com',
+      image: 'hearken.png'
     },
     {
-      "name": "Otus",
-      "link": "https://otus.com",
-      "image": "otus.png"
+      name: 'Otus',
+      link: 'https://otus.com',
+      image: 'otus.png'
     },
     {
-      "name": "Repl.it",
-      "link": "https://repl.it",
-      "image": "replit.png"
+      name: 'Repl.it',
+      link: 'https://repl.it',
+      image: 'replit.png'
     },
     {
-      "name": "Rockstar Coders",
-      "link": "https://rockstarcoders.com",
-      "image": "rockstar-coders.png"
+      name: 'Rockstar Coders',
+      link: 'https://rockstarcoders.com',
+      image: 'rockstar-coders.png'
     },
     {
-      "name": "NowPow",
-      "link": "https://nowpow.com",
-      "image": "nowpow.svg"
+      name: 'NowPow',
+      link: 'https://nowpow.com',
+      image: 'nowpow.svg'
     },
     {
-      "name": "Showpad",
-      "link": "https://www.showpad.com/",
-      "image": "showpad.svg"
+      name: 'Showpad',
+      link: 'https://www.showpad.com/',
+      image: 'showpad.svg'
     },
     {
-      "name": "Slack",
-      "link": "https://slack.com",
-      "image": "slack.svg"
+      name: 'Slack',
+      link: 'https://slack.com',
+      image: 'slack.svg'
     },
     {
-      "name": "Hack Club Bank",
-      "link": "https://hackclub.com/bank/",
-      "image": "hackclub-bank.svg"
+      name: 'Hack Club Bank',
+      link: 'https://hackclub.com/bank/',
+      image: 'hackclub-bank.svg'
     }
   ],
-  "additionalSupport": [
+  additionalSupport: [
     {
-      "name": "Sketch",
-      "link": "https://sketchapp.com/",
-      "image": "sketch.svg"
+      name: 'Sketch',
+      link: 'https://sketchapp.com/',
+      image: 'sketch.svg'
     },
     {
-      "name": "Meeting Tomorrow",
-      "link": "https://meetingtomorrow.com",
-      "image": "meetingtomorrow.png"
+      name: 'Meeting Tomorrow',
+      link: 'https://meetingtomorrow.com',
+      image: 'meetingtomorrow.png'
     },
     {
-      "name": "Jellyvision",
-      "link": "https://jellyvision.com",
-      "image": "jellyvision.svg"
+      name: 'Jellyvision',
+      link: 'https://jellyvision.com',
+      image: 'jellyvision.svg'
     },
     {
-      "name": "Quarter Zero",
-      "link": "https://www.quarterzero.com",
-      "image": "quarter-zero.png"
+      name: 'Quarter Zero',
+      link: 'https://www.quarterzero.com',
+      image: 'quarter-zero.png'
     },
     {
-      "name": "Tile",
-      "link": "https://tile.com/",
-      "image": "tile.svg"
+      name: 'Tile',
+      link: 'https://tile.com/',
+      image: 'tile.svg'
     },
     {
-      "name": "YouInkIt",
-      "link": "https://youinkit.com",
-      "image": "youinkit.png"
+      name: 'YouInkIt',
+      link: 'https://youinkit.com',
+      image: 'youinkit.png'
     },
     {
-      "name": "tastytrade",
-      "link": "https://www.tastytrade.com/",
-      "image": "tastytrade.png"
+      name: 'tastytrade',
+      link: 'https://www.tastytrade.com/',
+      image: 'tastytrade.png'
     }
   ]
 }
@@ -152,7 +152,7 @@ const Sponsors = props => {
         <a href={`${sponsor.link}`}>
           <img
             alt={sponsor.name}
-            src={`//windyhacks.com/sponsors/${sponsor.image}`}
+            src={`//2019.windyhacks.com/sponsors/${sponsor.image}`}
             key={sponsor.image}
           />
         </a>

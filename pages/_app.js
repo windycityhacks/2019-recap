@@ -7,7 +7,6 @@ import Meta from '../components/meta'
 import Layout from '../components/layout'
 import theme from '../components/theme'
 
-
 export default class extends App {
   static async getInitialProps({ Component, ctx }) {
     let pageProps = {}
@@ -26,7 +25,7 @@ export default class extends App {
       <Container>
         <Meta />
         <Head>
-          <link rel="stylesheet" href="//windyhacks.com/fonts.css" />
+          <link rel="stylesheet" href="//2019.windyhacks.com/fonts.css" />
         </Head>
         <ThemeProvider theme={theme}>
           <Global
