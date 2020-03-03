@@ -65,7 +65,7 @@ export default props => {
           variant="styles.navitem"
           sx={{ mr: [3, 4] }}
         >
-          2019 site
+          2020 site
         </A>
         <ColorButton
           onClick={e => {
