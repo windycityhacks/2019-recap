@@ -3,7 +3,7 @@ import { Image } from 'rebass'
 export default ({ size = 32, bright = false, ...props }) => (
   <Image
     {...props}
-    src={`https://2019.windyhacks.com/flag-${
+    src={`https://windyhacks.com/flag-${
       bright ? 'bright' : 'alt-teal'
     }.png`}
     alt="Windy Hacks avatar"
