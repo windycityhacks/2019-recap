@@ -61,7 +61,7 @@ export default props => {
         </Link>
         <Box sx={{ mx: 'auto' }} />
         <A
-          href="https://2019.windyhacks.com"
+          href="https://windyhacks.com"
           variant="styles.navitem"
           sx={{ mr: [3, 4] }}
         >

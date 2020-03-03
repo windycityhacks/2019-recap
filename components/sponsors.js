@@ -152,7 +152,7 @@ const Sponsors = props => {
         <a href={`${sponsor.link}`}>
           <img
             alt={sponsor.name}
-            src={`//2019.windyhacks.com/sponsors/${sponsor.image}`}
+            src={`//windyhacks.com/sponsors/${sponsor.image}`}
             key={sponsor.image}
           />
         </a>
