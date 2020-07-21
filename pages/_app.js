@@ -25,7 +25,7 @@ export default class extends App {
       <Container>
         <Meta />
         <Head>
-          <link rel="stylesheet" href="//windyhacks.com/fonts.css" />
+          <link rel="stylesheet" href="//2019-site.windyhacks.com/fonts.css" />
         </Head>
         <ThemeProvider theme={theme}>
           <Global

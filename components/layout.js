@@ -61,11 +61,11 @@ export default props => {
         </Link>
         <Box sx={{ mx: 'auto' }} />
         <A
-          href="https://windyhacks.com"
+          href="https://2019-site.windyhacks.com"
           variant="styles.navitem"
           sx={{ mr: [3, 4] }}
         >
-          2020 site
+          2019 site
         </A>
         <ColorButton
           onClick={e => {
@@ -130,7 +130,7 @@ export default props => {
             >
               <Icon glyph="instagram" size={36} />
             </A>
-            <A href="mailto:team@windyhacks.com" title="Email" sx={{ mx: 2 }}>
+            <A href="mailto:team@2019-site.windyhacks.com" title="Email" sx={{ mx: 2 }}>
               <Icon glyph="email" size={36} />
             </A>
           </Flex>

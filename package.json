@@ -1,7 +1,7 @@
 {
   "name": "@windyhacks/recap",
   "version": "1.0.0",
-  "author": "Lachlan Campbell <lachlan@windyhacks.com>",
+  "author": "Lachlan Campbell <lachlan@2019-site.windyhacks.com>",
   "private": true,
   "scripts": {
     "dev": "next",
