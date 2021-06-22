@@ -34,14 +34,6 @@ export default ({
         sizes="32x32"
         href="https://2019-site.windyhacks.com/flag-bright.png"
       />
-      <meta name="mobile-web-app-capable" content="yes" />
-      <meta name="theme-color" content="#fff" />
-      <meta name="apple-mobile-web-app-capable" content="yes" />
-      <meta
-        name="apple-mobile-web-app-status-bar-style"
-        content="black-translucent"
-      />
-      <meta name="apple-mobile-web-app-title" content="@windyhacks/site" />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
